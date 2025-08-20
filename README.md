@@ -1,4 +1,4 @@
-# Convolutional Neural Network for Binary Classification
+# Neural Network for Binary Classification
 
 This project implements a binary image classifier using **PyTorch** and **Torchvision**. The dataset comes from **WorldQuant University**’s public computer vision resources.
 
@@ -7,7 +7,7 @@ This project implements a binary image classifier using **PyTorch** and **Torchv
 ##  Features
 
 - Loads and preprocesses images (resize, normalization, RGB conversion).
-- Custom CNN model built with PyTorch.
+- Custom NN model built with PyTorch.
 - Uses `DataLoader` for batching and shuffling.
 - Model training with cross-entropy loss and Adam optimizer.
 - Performance evaluation with confusion matrix and accuracy metrics.
@@ -27,5 +27,5 @@ This project implements a binary image classifier using **PyTorch** and **Torchv
 
 ```bash
 git clone https://github.com/qasimmansoori/Convolutional-Neural-Network-Binary-classification.git
-cd Convolutional-Neural-Network-Binary-classification
+cd Neural-Network-Binary-classification
 pip install -r requirements.txt
