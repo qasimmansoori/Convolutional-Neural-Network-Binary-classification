@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/131z2dKDNdBWMW96cyeBlGDsxjHUG09ZG
 """
 
-!pip install torchinfo
+# !pip install torchinfo
 import os
 import sys
 from collections import Counter
@@ -35,7 +35,7 @@ from tqdm.version import __version__ as tqdm__version__
 
 # !gcloud storage cp gs://wqu-cv-course-datasets/project1.tar.gz . #First we download the data i am using worldquant university public dataset
 
-!tar --skip-old-files -xzf project1.tar.gz #Unzipping the downloaded file
+# !tar --skip-old-files -xzf project1.tar.gz #Unzipping the downloaded file
 
 train_path = os.path.join("data_p1","data_binary","train")
 content = os.listdir(train_path)
