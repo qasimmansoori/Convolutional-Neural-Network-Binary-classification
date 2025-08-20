@@ -26,6 +26,6 @@ This project implements a binary image classifier using **PyTorch** and **Torchv
 ##  Installation
 
 ```bash
-git clone https://github.com/qasimmansoori/Convolutional-Neural-Network-Binary-classification.git
+git clone https://github.com/qasimmansoori/Neural-Network-Binary-classification.git
 cd Neural-Network-Binary-classification
 pip install -r requirements.txt
